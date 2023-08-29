@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #39b9f0;
+}
+.titles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin: 25px 0;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+/* LIST */
+.ListCard {
+  background: url("./images//bgCard.png") no-repeat center/cover;
+  width: 390px;
+  height: 844px;
+  border-radius: 25px;
+}
+.ListCard button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  padding: 12px 50px;
+  border-radius: 40px;
+  background: #f90;
+  border: none;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 70%;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 88px;
+}
+.ListCard h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+.topTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 35px 0 8px 0;
+}
+.topTitle h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.topTitle h3 {
+  color: #f90;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.elip {
+  width: 335.193px;
+  height: 335.193px;
+  border-radius: 335.193px;
+  background: #c4c4c417;
+  position: absolute;
+  top: 50px;
+  right: -50px;
+}
+.visa {
+  background: url("./images//visabg.png") no-repeat center/cover;
+  width: 342px;
+  height: 190px;
+  position: relative;
+  overflow: hidden;
+}
+.visa img {
+  padding: 25px 0 0 40px;
+}
+.TageName {
+  display: flex;
+  align-items: start;
+  padding: 15px 0 0 40px;
+}
+.valid {
+  margin-left: 3%;
+}
+.TageName p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24.519px;
+  text-transform: uppercase;
+}
+.TageName h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24.519px;
+  text-transform: uppercase;
+}
+.cardNumber {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24.519px;
+  letter-spacing: 1.6px;
+  padding-left: 40px;
+}
+.cardVisa {
+  display: flex;
+  justify-content: center;
+}
+/* LIST */
+
+/* ADD */
+.AddCard {
+  background: url("./images//bgCard.png") no-repeat center/cover;
+  width: 390px;
+  height: 844px;
+  border-radius: 25px;
+}
+.AddCard h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 88px 0 48px 0;
+}
+.Add {
+  width: 342px;
+  height: 444px;
+  border-radius: 15px;
+  background: #fff;
+  padding: 25px;
+  margin: 25px;
+}
+.AddCard button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  background: #f90;
+  padding: 12px 73px;
+  border: none;
+}
+.SaveBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 16%;
+}
+.Add h3 {
+  color: #f90;
+  font-size: 14px;
+  font-weight: 600;
+}
+.Add h2 {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  font-weight: 300;
+}
+.typeName {
+  padding: 32px 0 24px 0;
+}
+.Add input {
+  border: none;
+  width: 279px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+.inputStyle {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.inputStyle h2 {
+  position: absolute;
+  right: 10px;
+}
+/* ADD */
