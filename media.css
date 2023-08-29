@@ -1,0 +1,12 @@
+@media (max-width: 989px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .ListCard {
+    margin-bottom: 50px;
+  }
+  .titles h1 {
+    display: none;
+  }
+}
